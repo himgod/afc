@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <system>
+    <sys_name>AFi-Controller</sys_name>
+    <country>China</country>
+    <timeout>5000</timeout>
+  </system>
+  <services>
+    <auto_upgrade>false</auto_upgrade>
+    <status_led>true</status_led>
+    <back_scan>false</back_scan>
+    <load_balance>false</load_balance>
+    <num_per_radio>30</num_per_radio>
+    <upnp_discovery>false</upnp_discovery>
+    <remote_log>true</remote_log>
+    <log_server_ip></log_server_ip>
+    <log_server_port>514</log_server_port>
+  </services>
+  <mail_server>
+    <server_enabled>true</server_enabled>
+    <server_addr>mail.autelan.com</server_addr>
+    <server_port>25</server_port>
+    <enable_ssl>false</enable_ssl>
+    <authentication>false</authentication>
+    <authen_user></authen_user>
+    <authen_pass></authen_pass>
+    <sender_addr></sender_addr>
+  </mail_server>
+  <interface>
+    <intf_name></intf_name>
+    <intf_ipaddr></intf_ipaddr>
+    <intf_netmask></intf_netmask>
+    <intf_gateway></intf_gateway>
+    <intf_firstdns></intf_firstdns>
+    <intf_seconddns></intf_seconddns>
+  </interface>
+  <user_group/>
+  <guest_policy/>
+  <block_list>
+  </block_list>
+  <wireless_global>
+    <wtp_auto_access>false</wtp_auto_access>
+  </wireless_global>
+  <map>
+  	<name>example2</name>
+  	<url>/map/example2.jpg</url>
+  	<initscaleunit>m</initscaleunit>
+  	<initscalemeter>1</initscalemeter>
+  	<initscalewidth>38</initscalewidth>
+  	<selected>true</selected>
+  </map>
+  <wlan>
+  </wlan>
+  <wtp>
+  </wtp>
+</root>
+

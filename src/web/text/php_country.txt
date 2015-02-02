@@ -1,0 +1,16 @@
+china=China;
+china=中国;
+unitedstates=United States;
+unitedstates=美国;
+uruguay=Uruguay;
+uruguay=乌拉圭;
+uzbekistan=Uzbekistan;
+uzbekistan=乌兹别克斯坦;
+venezuela=Venezuela;
+venezuela=委内瑞拉;
+vietnam=Viet Nam;
+vietnam=越南;
+yemen=Yemen;
+yemen=也门;
+zimbabwe=Zimbabwe;
+zimbabwe=津巴布韦;

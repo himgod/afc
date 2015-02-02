@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body{padding:0px;margin:0px;font-size:12px;font-family:Helvetica, Arial, sans-serif;background:#2858A0;}
+ul{list-style-type:none;}
+img{border:none;}
+#container{padding:0 30px;margin:0 auto;}
+#head{margin-bottom:13px;}
+#head img{margin-top:5px;}
+#head a{color:#fff;}
+#head a:hover{font-size:14px;}
+#head div.fresh{float:right;padding:15px 5px 0px 0px;}
+.clear{clear:both;}
+#drag{margin-top:20px;height:12px;background:#6699cc;}
+#drag span{background:url(../../media/global/drag.jpg) repeat-x;}
+#content{width:952px;height:577px;margin:0 auto;background:#69c;}
+#ybg{height:577px;background:url(../../media/global/ybg.jpg) no-repeat; background-position:18px;position:relative;}
+#content h1{font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;font-size:70px;position:absolute;top:40px;left:210px;color:#54e42d;}
+
+#content input.btn1,#content input.btn2{width:156px;height:49px; border:none;position:absolute;top:130px; cursor:pointer;}
+#content input.btn1{background:url(../../media/global/btni1.jpg) no-repeat;left:440px;}
+#content input.btn2{background:url(../../media/global/btni2.jpg) no-repeat;left:670px;}
+#content ul.star{color:#000;font-size:18px;position:absolute;top:220px;left:300px;vertical-align:middle;}
+#content ul.star li{height:72px;line-height:72px;vertical-align:middle;}
+#content ul.star li img{position:absolute;}
+#content ul.star a{color:#000;}
+
+#footer{text-align:center;margin-top:20px;}
+
+.butom-iput{width:271px;height:61px; border:none;cursor:pointer;background:url(../../media/global/btni.jpg) no-repeat;color:#fff;font-size:24px;}
+.btnSure{background-color:#E5BB4B;}
+.btnCancel{background-color:#9da3b3;}
+.btnpub{border-radius:3px;font-size:16px;border:none;width:100px;height:36px;color:#fff;}
+.zfbotm input{margin-top:5px;margin-right:30px;margin-left:50px;}
+.zfbotm a:hover{text-decoration:none;}
+.box-mask{position:fixed;top:0;left:0;width:100%;height:100%;opacity:0.5;filter:alpha(opacity=50);z-index:99;display:none;}
+.box{position:absolute;width:852px;height:577px;border:3px solid #595959;background:#69c;z-index:101;display:none; overflow:hidden;}
+
+.start_score {
+	position: absolute;
+	left:0px;
+	top: 0px;
+	width: 401px;
+	height: 72px;
+   background: url(../../media/global/star.png) no-repeat;
+}
+
+.start_mousemove {
+	position: absolute;
+	left:-4px;
+	top: 2px;
+	width: 0px;
+	height: 50px;
+   background: url(../../media/global/ystar.png) no-repeat;
+}
+
+.start_score_set {
+	position: absolute;
+	left:-4px;
+	top: 2px;
+	width: 0px;
+	height: 50px;
+   background: url(../../media/global/ystar.png) no-repeat;
+}

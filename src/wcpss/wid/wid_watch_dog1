@@ -1,0 +1,13 @@
+#!/bin/bash
+
+IF=$1
+IP=$2
+FILE=$3
+TCPDUMP=/usr/sbin/tcpdump
+GAP_TIME=20
+$TCPDUMP -i $IF -n "host $IP &&(udp port 5246 || udp port 1234)" 1>$FILE 2>/dev/null &
+PID=$!
+sleep $GAP_TIME
+kill $PID
+COUNT=$(cat $FILE | grep -v ^$ | wc -l | awk '{print$1}')
+exit $COUNT

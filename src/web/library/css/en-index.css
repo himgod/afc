@@ -1,0 +1,151 @@
+body{
+	font-size:14px;
+	}
+#en-contact-select{
+	margin-left: 560px;
+	}
+#en-nav-ul{
+	width:250px;
+	}
+#en-nav-ul li{
+	width:49.6%
+	}
+#en-download-APP button{
+	width: 160px;
+	}
+#en-system-nav-ul{
+	width:500px;
+	}
+#en-system-nav-ul li:first-child,#en-system-nav-ul li:nth-child(2){
+	width:19.5%;
+	}
+#en-system-nav-ul li:nth-child(3),#en-system-nav-ul li:nth-child(4){
+	width:30%;
+	}
+#en-page{
+	width:210px;
+	}
+.view-history2{
+	left: 10px;
+    top: 222px;
+	}
+#en-basic-configuration p.wirlessConf-content-element label:first-child,#en-service-configuration p.wirlessConf-content-element label{
+	width:155px;
+	left: -80px;
+	}
+#en-update-nav-ul{
+	width:500px;
+	}
+#en-business-nav-ul{
+	width:200px;
+	}
+#en-sel-afi{
+	left:260px;
+	}
+#en-select-AFI{
+	margin-left: 84%;
+	}
+#en-select-AFI2{
+	margin-left: 40%;
+	}
+#en-title-font{
+	font-size:20px;
+	}
+#en-indicator-pic1{
+	background: url("/pic/indicators-symbol-signal-en.png") no-repeat scroll center 20% transparent;
+	background-size:100% auto;
+	}
+#en-indicator-pic2{
+	background: url("/pic/indicators-symbol-terminal-en.png") no-repeat scroll center 20% transparent;
+	background-size:100% auto;
+	}
+#en-indicator-pic3{
+	background: url("/pic/indicators-symbol-ap-en.png") no-repeat scroll center 20% transparent;
+	background-size:100% auto;
+	}
+#en-indicator-pic4{
+	background: url("/pic/indicators-symbol-flow-en.png") no-repeat scroll center 20% transparent;
+	background-size:100% auto;
+	}
+#en-system-title,#en-proText{
+	font-size:16px;
+	}
+#en-prompSupport{
+	font-size:13px;
+	}
+#MainPanel div.naviation-tabs-background ul li a{
+	font-size:20px;}
+#en-dragging{
+	left: 85px;
+	}
+#en-wizard-navigation{
+	font-size: 15px;
+	margin-left: 2px;
+}
+#en-form-element label{
+	width:90px;
+	left: -5px;
+	}
+#en-enable-guest-access{
+	margin-left: 12px;
+	}
+#en-wizard-page{
+	height: 465px;
+	}
+.en-wireless-net{
+	position: relative;
+	top: -2px;
+	left: -65px;
+	}
+.en-guest-wireless{
+	display: block;
+	width: 200px;
+	position: relative;
+	left: 5px;
+	top: -5px;
+	}
+#RefreshControl a{
+	margin-left: 7px;
+	}
+.map-scaletool{
+	height:200px;
+	}
+.map-scalesetbutton{
+	padding-top:10px;
+		
+	}
+.map-scalesetbutton .button{
+	width:60px;	
+	}
+.indicators{
+	font-size:13px;	
+	}
+.indicator{
+	height: 300px;
+	}
+@media screen and (max-width: 670px){
+.indicator{
+	height: 380px;
+	}
+.view-history2{
+	left: 24%;
+	top: 190px;
+	}
+}
+@media screen and (max-height: 630px){
+#MainPanel div.naviation-tabs-background ul li a{
+	line-height: 790%;
+	}
+}
+@media screen and (max-height: 570px){
+#MainPanel div.naviation-tabs-background ul li a{
+	line-height: 785%;
+	font-size: 18px;
+	}
+}
+@media screen and (max-height: 500px){
+#MainPanel div.naviation-tabs-background ul li a{
+	line-height: 750%;
+	font-size: 18px;
+	}
+}
