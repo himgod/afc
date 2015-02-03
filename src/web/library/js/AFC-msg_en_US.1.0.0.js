@@ -209,6 +209,76 @@ Msg.I_RestoringLoading = "Configure file loading...";
 Msg.E_RestoringUploadFailed = "Configure file upload failed!";
 Msg.E_RestoringLoadFailed = "Configure file load failed!";
 Msg.I_WaiSlogon = "Y Service for you";
+
+//by himgod
+Msg.WlanListSetting = "Wireless Network List";
+Msg.SignalStat = "Signal State";
+
+Msg.UserLimitPolicyName = "Limited Speed Policy Group Name";
+
+
+Msg.DetailSetting = "Detail Setting";
+Msg.Relink = "Reconnection";
+
+Msg.View = "View";
+Msg.AddUser = "Add";
+Msg.NameOrMac = "Name/Mac Address";
+Msg.UserBlackListTips = "User Blacklist";
+Msg.AFIBlackListTips = "AFI Blacklist";
+Msg.IsBlocked = "Is Blocked";
+Msg.WeakStr = "Weak";
+Msg.ZHONGStr = "Middle";
+Msg.StrengthStr = "Strong";
+Msg.China = "China";
+Msg.France = "France";
+Msg.Spain = "Spain";
+Msg.Japan = "Japan";
+Msg.UnitedStates = "American";
+Msg.UserSigQuality = "User Singal Quality";
+Msg.InterferSigStrength = "Disturbe Signal Strength";
+Msg.NetLinked = "Network Connection";
+Msg.LossPackRate = "Network Loss Packet Rate";
+Msg.DelayTm = "Network Delay Time";
+Msg.NetStable = "Network Stablity";
+Msg.reTryRate = "Network Retransimission Rate";
+Msg.AccessSuccRate = "Access Success Rate";
+Msg.DropsRate = "Network Drops Rate";
+Msg.OnlineUsrNum = "Online user Number";
+Msg.EvaluateScore = "Score";
+
+Msg.APIndexShow = "AP Index Show";
+Msg.AvgDelayTm = "Average Delay Time";
+Msg.UpBandwidth = "Up Link Bandwidth";
+Msg.DownBandwidth = "Down Link Bandwidth";
+Msg.WifiIndexShow = "Wifi Index Show";
+Msg.Percentage = "Percentage(%)";
+Msg.SignalStrength = "Signal Intensity";
+Msg.SignalNoiseRate = "Noise-signal Ratio";
+Msg.SignalChannelUtil_2g = "Signal Channel Utilize Rate(2G)";
+Msg.SignalChannelUtil_5g = "Signal Channel Utilize Rate(5G)";
+Msg.SignalInternStrength = "Signal Disturb Intensity";
+Msg.TerminalIndexShow = "Terminal Index Show";
+Msg.NetWorkSpeed = "Network Speed";
+Msg.TimeDelay = "Time Delay";
+Msg.AccessRate_Tx = "Access Rate(Tx)";
+Msg.AccessRate_Rx = "Access Rate(Rx)";
+Msg.WirelessRetransRate_Rx = "Wireless retransmission rate(Rx)";
+Msg.WirelessRetransRate_Tx = "Wireless Retransmission Rate(Tx)";
+Msg.FlowIndexShow = "Flow Index Show";
+Msg.Packets = "Packets";
+Msg.Bytes = "Bytes";
+Msg.UpLinkPakcets = "Up Link Packets";
+Msg.DownLinkPackets = "Down Link Packets";
+Msg.UpLinkBytes = "Up Link Bytes";
+Msg.DownLinkBytes = "Down Link Bytes";
+Msg.WirelessIndexShow = "Wireless Index Show";
+Msg.OnlineUser = "Online User";
+Msg.RenUnit = "(people)";
+Msg.UserNumber = "User Numbers";
+Msg.SysHistorySCore = "System History Score";
+Msg.SysScore = "System Score";
+Msg.ScoreUnit = "(points)";
+
 Msg.Signal_disturb_blue="Bluetooth";
 Msg.Signal_disturb_oven="Microwave Oven";
 Msg.Other="Others";
